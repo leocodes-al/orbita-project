@@ -1,0 +1,82 @@
+.hero {
+  height: 400px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+/* Escurecendo a imagem para melhorar a legibilidade do texto */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+/* BUSCAR */
+.search {
+  display: flex;
+  justify-content: center;
+  color: #2D676D;
+  background-color: #EBEBEB;
+}
+
+.search-box {
+  background: #2D676D;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+
+  margin-top: 2rem;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background: #3FA7A3;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #36A19B;
+}
+
+.hospedagens {
+  height: 1200px;
+  background-color: #EBEBEB;
+}
+
+.hotel-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
