@@ -18,7 +18,7 @@ import "./Hospedagem.css"
 import bg from "../../assets/background-hero.jpg"
 import HotelCard from "../../components/hotelCard/HotelCard"
 
-
+ 
 
 
 function Hospedagem() {

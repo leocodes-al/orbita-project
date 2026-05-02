@@ -3,7 +3,7 @@ import "./HotelCard.css";
 function HotelCard({ hotel }) {
   return (
     <div className="hotel-card">
-
+ 
       <img
         className="hotel-img"
         src={hotel.image}
