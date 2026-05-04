@@ -13,12 +13,13 @@ import flagItalia from "../../assets/flag/icon-italia.png"
 import flagMex from "../../assets/flag/icon-mexico.png"
 import flagPort from "../../assets/flag/icon-portugal.png"
 
+import email from "../../assets/icons/icon-email.png"
+import central from "../../assets/icons/icon-central.png"
+import phone from "../../assets/icons/icon-phone.png"
+
 
 import "./Hospedagem.css"
-import bg from "../../assets/background-hero.jpg"
 import HotelCard from "../../components/hotelCard/HotelCard"
-
- 
 
 
 function Hospedagem() {
@@ -69,16 +70,6 @@ function Hospedagem() {
 
   return (
     <>
-      {/* Img Background */}
-      <section
-        className="hero"
-        style={{ backgroundImage: `url(${bg})` }}
-      >
-        <div className="hero-content">
-          <h1>Seu próximo destino começa aqui</h1>
-        </div>
-      </section>
-
       {/* Destino */}
       <section className="search">
         <div className="search-box">
@@ -97,7 +88,41 @@ function Hospedagem() {
           {hotels.map((hotel) => (
             <HotelCard key={hotel.id} hotel={hotel} />
           ))}
+        </div>
+      </section>
 
+      {/* Informações hospedagem */}
+      <section className="info-hospedagem">
+        <div className="info-box">
+          <h3>Hospedagens</h3>
+          <p>Encontrar o lugar ideal para se hospedar é uma das partes mais importantes da sua viagem. Na Orbita, você descobre opções de hotéis selecionados para diferentes estilos de viagem, desde estadias econômicas até experiências mais completas e confortáveis.<br></br><br></br>
+            Cada hospedagem foi pensada para oferecer praticidade e bem-estar, seja para uma viagem de descanso, lazer ou negócios. Explore diferentes destinos, escolha o hotel ideal e aproveite sua estadia com mais tranquilidade e segurança.<br></br><br></br>
+            Com a Orbita, você encontra o equilíbrio perfeito entre conforto, localização e custo-benefício para sua próxima viagem.
+          </p>
+        </div>
+      </section>
+
+      {/* Central de Ajuda */}
+      <section className="central-ajuda">
+        <div className="central-box">
+
+          <div className="central-titulo">
+            <img src={central} alt="central de ajuda" />
+            <span>CENTRAL DE AJUDA</span>
+          </div>
+
+          <div className="central-contato">
+            <div className="contato-item">
+              <img src={phone} alt="telefone" />
+              <span>0800 3232 0820</span>
+            </div>
+
+            <div className="contato-item">
+              <img src={email} alt="email" />
+              <span>orbita@yahoo.com.br</span>
+            </div>
+
+          </div>
         </div>
       </section>
     </>
