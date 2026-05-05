@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import Hospedagem from './pages/hospedagem/Hospedagem'
 import BackgroundImage from './components/Background-img'
+import Hospedagem from './pages/hospedagem/Hospedagem'
+import Footer from './components/Footer'
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <BackgroundImage />
       <Hospedagem />
+      <Footer />
     </>
   )
 }

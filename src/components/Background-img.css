@@ -1,10 +1,14 @@
 .hero {
-  height: 400px;
+  min-height: 40vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Escurecendo a imagem para melhorar a legibilidade do texto */
@@ -19,13 +23,10 @@
   position: relative;
   z-index: 1;
 
-  height: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 12rem;
 }
 
 .hero h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }

@@ -23,7 +23,7 @@ input {
   outline: none;
 }
 
-button {
+.search-box button {
   background: #3FA7A3;
   border: none;
   padding: 10px 16px;
@@ -32,7 +32,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.search-box button:hover {
   background: #36A19B;
 }
 
