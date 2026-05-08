@@ -1,10 +1,12 @@
+import { NavLink } from "react-router-dom"
+
 import logo from "../assets/logo-orbita-white.png"
 import phone from "../assets/icons/icon-phone.png"
 import help from "../assets/icons/icon-help.png"
 import login from "../assets/icons/icon-login.png"
 
 import "./Header.css"
- 
+
 function Header() {
   return (
     <header className="header">
@@ -23,18 +25,76 @@ function Header() {
             <img src={login} alt="Login" /> Login
           </button>
         </div>
-        
+
       </div>
 
       <div className="navBar">
         <nav className="nav">
-          <a href="hospedagem.html" className="active">Hospedagem</a>
-          <a href="passagens.html">Passagens</a>
-          <a href="pacotes.html">Pacotes</a>
-          <a href="ofertas.html">Ofertas</a>
-          <a href="nacionais.html">Nacionais</a>
-          <a href="internacionais.html">Internacionais</a>
-          <a href="ver-mais.html">Ver mais</a>
+
+          {/* NavLink é igual o 'a' do html; isActive detecta a rota que está ativa e alterar o active */}
+          <NavLink
+            to="/hospedagem"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Hospedagem
+          </NavLink>
+
+          <NavLink
+            to="/passagens"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Passagens
+          </NavLink>
+
+          <NavLink
+            to="/pacotes"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Pacotes
+          </NavLink>
+
+          <NavLink
+            to="/ofertas"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Ofertas
+          </NavLink>
+
+          <NavLink
+            to="/nacionais"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Nacionais
+          </NavLink>
+
+          <NavLink
+            to="/internacionais"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Internacionais
+          </NavLink>
+
+          <NavLink
+            to="/ver-mais"
+            className={({ isActive }) =>
+              isActive ? "active" : ""
+            }
+          >
+            Ver mais
+          </NavLink>
+
         </nav>
       </div>
 

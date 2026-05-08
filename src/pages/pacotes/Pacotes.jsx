@@ -1,4 +1,4 @@
-import maceio from "../../assets/pacote/maceio.jpg"
+import maceio from "../../assets/pacote/maceio.webp"
 import rio from "../../assets/pacote/rio.webp"
 import paris from "../../assets/pacote/paris.webp"
 import londres from "../../assets/pacote/londres.avif"

@@ -1,4 +1,4 @@
-import bg from "../assets/background-hero.jpg"
+import bg from "../assets/background-hero.webp"
 import "./Background-img.css"
 
 function BackgroundImage() {

@@ -1,5 +1,5 @@
 import hotelMaceio from "../../assets/hotel/hotel-maceio.webp"
-import hotelLondres from "../../assets/hotel/hotel-londres.jpg"
+import hotelLondres from "../../assets/hotel/hotel-londres.webp"
 import hotelParis from "../../assets/hotel/hotel-paris.jpg"
 import hotelRio from "../../assets/hotel/hotel-rj.jpg"
 import hotelCancun from "../../assets/hotel/hotel-cancun.jpg"
