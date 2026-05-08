@@ -16,7 +16,7 @@ function App() {
       <BackgroundImage />
 
       <Routes>
-         <Route path="/" element={<Navigate to="/Hospedagem" />} /> {/* Ao acessar o site, já vai automaticamente para pagina hospedagem*/}
+        <Route path="/" element={<Navigate to="/Hospedagem" />} /> {/* Ao acessar o site, Navigate já abre na pagina definida*/}
         <Route path="/hospedagem" element={<Hospedagem />} />
         <Route path="/pacotes" element={<Pacotes />} />
       </Routes>
