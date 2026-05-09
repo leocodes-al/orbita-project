@@ -5,13 +5,13 @@
 
   background-color: #EBEBEB;
   color: white;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .titulos {
   width: 40rem;
   background: #2D676D;
-  padding: 16px;
+  padding: 1rem;
   border-radius: 12px;
 
   margin-top: 2rem;
@@ -35,7 +35,7 @@
   font-weight: bold;
 }
 
-/* Hospedagens */
+/* Pacotes */
 .pacotes {
   height: 25rem;
   background-color: #EBEBEB;
@@ -48,20 +48,20 @@
   flex-wrap: wrap;
 }
 
-/* Aviso Hospedagem */
+/* Aviso Pacotes */
 .info-pacotes {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: 40px;
+  padding: 2.5rem;
   background-color: #EBEBEB;
   height: 20rem;
 }
 
 .info-box {
   background: #2D676D;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 10px;
   color: white;
   max-width: 75rem;
@@ -75,7 +75,7 @@
 
 .info-box p {
   font-size: 1rem;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 /* Central de Ajuda */
@@ -89,10 +89,10 @@
 
 .central-box {
   background: #2D676D;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 50px;
   color: white;
-  width: 800px;
+  width: 50rem;
 }
 
 .central-titulo {
@@ -105,8 +105,8 @@
 }
 
 .central-titulo img {
-  width: 22px;
-  height: 22px;
+  width: 1.38rem;
+  height: 1.38rem;
   object-fit: contain;
 }
 
@@ -124,6 +124,6 @@
 }
 
 .contato-item img {
-  width: 18px;
-  height: 18px;
+  width: 1.13rem;
+  height: 1.13rem;
 }

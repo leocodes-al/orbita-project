@@ -2,18 +2,18 @@ import "./PacotesCard.css";
 
 function PacotesCard({ pacote }) {
   return (
-    <div className="cidade-card">
+    <div className="pacote-card">
 
       <img
-        className="cidade-img"
+        className="pacote-img"
         src={pacote.image}
         alt={pacote.name}
       />
 
-      <div className="cidade-info">
-        <span className="cidade-tag">PACOTES</span>
+      <div className="pacote-info">
+        <span className="pacote-tag">PACOTES</span>
 
-        <h3 className="cidade-name">
+        <h3 className="pacote-name">
           {pacote.name}
 
           <img
@@ -23,7 +23,7 @@ function PacotesCard({ pacote }) {
           />
         </h3>
 
-        <p className="cidade-package">
+        <p className="pacote-package">
           {pacote.package}
         </p>
 
