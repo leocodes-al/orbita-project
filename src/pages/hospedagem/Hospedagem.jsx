@@ -38,7 +38,7 @@ function Hospedagem() {
       id: 2,
       name: "St. Ermin's Hotel",
       location: "A 1,2 KM do Big Bang",
-      price: "R$ 1.098,00 + taxa",
+      price: "R$ 1.098,00",
       image: hotelLondres,
       flag: flagIngla
     },
@@ -46,7 +46,7 @@ function Hospedagem() {
       id: 3,
       name: "Hotel Dulouyre",
       location: "Vista inigualável da Torre Eiffel",
-      price: "R$ 1.286,00 + taxa",
+      price: "R$ 1.286,00",
       image: hotelParis,
       flag: flagFranca
     },
@@ -54,7 +54,7 @@ function Hospedagem() {
       id: 4,
       name: "Copacabana Palace",
       location: "A 300m da Praia",
-      price: "R$ 1.158,00 + taxa",
+      price: "R$ 1.158,00",
       image: hotelRio,
       flag: flagBR
     },
@@ -62,7 +62,7 @@ function Hospedagem() {
       id: 5,
       name: "Oasis Cancun Lite",
       location: "Resort completo | A 100m da praia",
-      price: "R$ 1.066,00 + taxa",
+      price: "R$ 1.066,00",
       image: hotelCancun,
       flag: flagMex
     },
