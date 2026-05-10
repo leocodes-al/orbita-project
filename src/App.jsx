@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom"
+import { Routes, Route, Navigate, useLocation } from "react-router-dom"
 
 import Header from './components/Header'
 import BackgroundImage from './components/Background-img'
@@ -9,13 +9,20 @@ import Pacotes from './pages/pacotes/Pacotes'
 import Nacionais from './pages/nacionais/Nacionais'
 import Internacionais from './pages/internacionais/Internacionais'
 
+import Login from "./pages/login/Login"
+
 
 function App() {
+
+  const location = useLocation()
+
+  const isLoginPage = location.pathname === "/login"
+
   return (
     <>
       <Header />
 
-      <BackgroundImage />
+      {!isLoginPage && <BackgroundImage />}
 
       <Routes>
         <Route path="/" element={<Navigate to="/Hospedagem" />} /> {/* Ao acessar o site, Navigate já abre na pagina definida*/}
@@ -23,9 +30,10 @@ function App() {
         <Route path="/pacotes" element={<Pacotes />} />
         <Route path="/nacionais" element={<Nacionais />} />
         <Route path="/internacionais" element={<Internacionais />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
 
-      <Footer />
+      {!isLoginPage && <Footer />}
     </>
   )
 }

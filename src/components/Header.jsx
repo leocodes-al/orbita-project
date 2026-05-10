@@ -17,13 +17,25 @@ function Header() {
         </div>
 
         <div className="actions">
-          <span><img src={phone} alt="Telefone" /> 0800 3232 0820</span>
-          <button>
-            <img src={help} alt="Ajuda" /> Ajuda
+
+          <span>
+            <img src={phone} alt="Telefone" />
+            0800 3232 0820
+          </span>
+
+          <button className="action-btn">
+            <img src={help} alt="Ajuda" />
+            Ajuda
           </button>
-          <button>
-            <img src={login} alt="Login" /> Login
+
+          <button
+            className="action-btn"
+            onClick={() => window.open("/login", "_blank")}
+          >
+            <img src={login} alt="Login" />
+            Login
           </button>
+
         </div>
 
       </div>
