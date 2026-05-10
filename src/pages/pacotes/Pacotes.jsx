@@ -43,7 +43,7 @@ function Pacotes() {
       id: 3,
       name: "Paris - França",
       package: "Hotel + Aéreo",
-      price: "R$ 4.290",
+      price: "R$ 6.290",
       image: paris,
       flag: flagFranca
     },
@@ -51,7 +51,7 @@ function Pacotes() {
       id: 4,
       name: "Londres - Inglaterra",
       package: "Hotel + Aéreo",
-      price: "R$ 4.980",
+      price: "R$ 5.980",
       image: londres,
       flag: flagIngla
     },
@@ -59,7 +59,7 @@ function Pacotes() {
       id: 5,
       name: "Cancún - México",
       package: "Hotel + Aéreo",
-      price: "R$ 3.090",
+      price: "R$ 4.090",
       image: cancun,
       flag: flagMex
     },
