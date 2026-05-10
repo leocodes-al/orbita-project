@@ -1,0 +1,137 @@
+.login {
+  min-height: 100vh;
+  background: #ECECEC;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 5rem;
+}
+
+.container-login {
+  width: 20rem;
+  height: 30rem;
+
+  background: #F5F5F5;
+
+  border: 1px solid #2D676D;
+  border-radius: 12px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-titulo img {
+  width: 7rem;
+}
+
+.logo-titulo h3 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #1F1F1F;
+}
+
+/* Acesso Input */
+.acesso {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2rem;
+}
+
+.acesso label {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+
+  color: #1F1F1F;
+}
+
+.acesso input {
+  height: 2rem;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #2D676D;
+
+  padding: 0 12px;
+
+  color: white;
+  font-size: 0.8rem;
+}
+
+.acesso input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.acesso button {
+  margin-top: 1rem;
+
+  height: 2.4rem;
+
+  border-radius: 6px;
+  border: 1px solid #2D676D;
+
+  background: transparent;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* Opçoes de acesso */
+.opcoes-acesso {
+  width: 100%;
+
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.opcoes-acesso label {
+  font-size: 0.8rem;
+}
+
+.opcoes-acesso button {
+  padding: 0.4rem;
+
+  border-radius: 8px;
+  border: 1px solid #2D676D;
+
+  background: white;
+
+  cursor: pointer;
+}
+
+.opcoes-acesso button img {
+  width: 1rem;
+}
+
+.opcoes-acesso p {
+  font-size: 0.8rem;
+  color: #2A2A2A;
+}
+
+.opcoes-acesso span {
+  color: #2D676D;
+  font-weight: 600;
+
+  cursor: pointer;
+}
