@@ -1,0 +1,32 @@
+.Ofertas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #EBEBEB;
+  color: white;
+  padding: 1.25rem;
+}
+
+.container-Ofertas {
+  width: 40rem;
+  background: #2D676D;
+  padding: 1rem;
+  border-radius: 12px;
+
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;       
+  gap: 6px;
+}
+
+.container-Ofertas h2 {
+  font-size: 1.2rem;
+}
+
+.container-Ofertas h2 {
+  font-size: 1.2rem;
+}

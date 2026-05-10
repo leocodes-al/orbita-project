@@ -8,6 +8,9 @@ import Hospedagem from './pages/hospedagem/Hospedagem'
 import Pacotes from './pages/pacotes/Pacotes'
 import Nacionais from './pages/nacionais/Nacionais'
 import Internacionais from './pages/internacionais/Internacionais'
+import Passagens from './pages/passagens/Passagens'
+import Ofertas from './pages/ofertas/Ofertas'
+import Ver from './pages/vermais/Vermais'
 
 import Login from "./pages/login/Login"
 
@@ -30,6 +33,10 @@ function App() {
         <Route path="/pacotes" element={<Pacotes />} />
         <Route path="/nacionais" element={<Nacionais />} />
         <Route path="/internacionais" element={<Internacionais />} />
+        <Route path="/passagens" element={<Passagens />} />
+        <Route path="/ofertas" element={<Ofertas />} />
+        <Route path="/ver-mais" element={<Ver />} />
+
         <Route path="/login" element={<Login />} />
       </Routes>
 
