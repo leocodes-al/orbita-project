@@ -59,3 +59,47 @@
   font-size: 0.8rem;
   color: #ddd;
 }
+
+/*  -- Responsividade  --  */
+
+@media (max-width: 480px) {
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-mensagem p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  /* Conteúdo empilhado verticalmente */
+  .footer-conteudo {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 24px;
+  }
+
+  .logo-footer img {
+    height: 5rem;
+  }
+
+  /* Navegações em grid 2 colunas */
+  .navegacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    width: 100%;
+  }
+
+  /* Redes sociais ocupa as 2 colunas */
+  .navegacoes-sociais {
+    grid-column: 1 / -1;
+    align-items: center;
+  }
+
+  .navegacoes-sociais a {
+    text-align: center;
+  }
+
+}
