@@ -72,13 +72,26 @@ function Hospedagem() {
     <>
       {/* Destino */}
       <section className="search">
-        <div className="search-box">
-          <input type="text" placeholder="Destino" />
-          <input type="date" />
-          <input type="date" />
-          <button>Buscar</button>
-        </div>
+        <div className="search-bar">
 
+          <div className="search-field">
+            <span>Destino</span>
+            <input type="text" placeholder="Para onde você vai?" />
+          </div>
+
+          <div className="search-field">
+            <span>Check-in</span>
+            <input type="date" />
+          </div>
+
+          <div className="search-field">
+            <span>Check-out</span>
+            <input type="date" />
+          </div>
+
+          <button>Buscar</button>
+
+        </div>
       </section>
 
       {/* Hospedagens */}
