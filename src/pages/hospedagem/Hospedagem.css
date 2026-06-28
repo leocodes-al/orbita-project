@@ -135,18 +135,20 @@ input {
   /* Search empilhado verticalmente */
   .search-box {
     flex-direction: column;
-    width: 90%;
+    width: 75%;        
     margin: 1rem auto;
-    gap: 8px;
+    gap: 6px;          
+    padding: 0.5rem;   
   }
 
   input {
     width: 100%;
+    padding: 0.4rem;  
   }
 
   .search-box button {
     width: 100%;
-    padding: 0.75rem;
+    padding: 0.5rem;   
   }
 
   /* Hospedagens altura automática */
