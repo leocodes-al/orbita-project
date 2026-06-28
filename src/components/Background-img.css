@@ -30,3 +30,26 @@
   color: white;
   font-size: 1.6rem;
 }
+
+/*  --  Responsividade  --  */
+
+@media (max-width: 480px) {
+
+  /* Altura menor no mobile */
+  .hero {
+    min-height: 30vh;
+  }
+
+  /* Título menor e centralizado */
+  .hero h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  /* Margem menor — 12rem é muito espaço no celular */
+  .hero-content {
+    margin-bottom: 4rem;
+  }
+
+}
